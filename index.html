@@ -4,30 +4,78 @@
     <meta charset="UTF-8">
     
     <title>Portfólio Web</title>
+
+    <style>
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1{
+
+      font-family: Didot, serif	;
+      font-style: italic;
+      color: #fdf0d5
+    }
+    body{
+      background-color: #e56b6f
+    }
+
+    .list-habilidades{
+      line-height: 40px;
+      font-weight: italic;
+      text-align: center;
+      font-size: 20px;
+      
+    }
+    h2, li{
+      text-align: center;
+      color: #fdf0d5
+    }
+    .comentario {
+      color: #fdf0d5;
+      font-size: 20px;
+    }
+
+    #tirando_linha{
+      text-decoration: none;
+      color: #fdf0d5;
+    }
+
+    #apresentaçao{
+      color: #fdf0d5;
+      font-size: 20px;
+    }
+    </style>
+
 </head>
 <body>
-    <h1>Sandra da Silva Pereira Alves</h1>
-    <img src="./gostei_dessa.jpeg" width="200px"> 
-    
-    <p> 
-      <em>
-      "Gosto muito de me maquiar e agora gostando de programar...""
-    </em>
-     <p>
-      Olá, sejam bem vindos ao meu Portifólio Web. Vamos lá me conhecer melhor? Meu nome é Sandra, tenho 26 anos, sou Brasileira, nasci e cresci em Fortaleza-CE. Atualmente, moro na cidade vizinha a capital, Caucaia-CE. Tenho um filho que se chama Pedro Erick, que tem 4 anos. Não posso esquecer de dizer que    <a href="https://www.betrybe.com/?utm_source=google&utm_medium=cpc&utm_campaign=pmax5&utm_content=ad1&gclid=CjwKCAjw682TBhATEiwA9crl3w6bhn7QNCCiu57fy9Kcdhy0hNwfavd_6iOi9DWZYQ-mfSDKvSGU-RoCv_0QAvD_BwE" target="_blank">Estudo Desenvolvimento Web na Trybe.</a>
+    <main>
+      <h1>Sandra da Silva Pereira Alves</h1>
+      <img src="./gostei_dessa.jpeg" width="200px"> 
+      
+      <p class="comentario"> 
+        <blockquote>
+          <em>"Gosto muito de me maquiar e agora gostando de programar..."</em>
+        </blockquote>
+      </p>
+      <p id="apresentaçao">
+        Olá, sejam bem vindos ao meu Portifólio Web. Vamos lá me conhecer melhor? Meu nome é Sandra, tenho 26 anos, sou <strong>Brasileira</strong> , nasci e cresci em <strong>Fortaleza-CE</strong> . <strong>Atualmente</strong> , moro na cidade vizinha a capital, <strong>Caucaia-CE</strong>. Tenho um filho que se chama Pedro Erick, que tem 4 anos. Não posso esquecer de dizer que estudo Desenvolvimento Web na  
+        <a id="tirando_linha" href="https://www.betrybe.com/?utm_source=google&utm_medium=cpc&utm_campaign=pmax5&utm_content=ad1&gclid=CjwKCAjw682TBhATEiwA9crl3w6bhn7QNCCiu57fy9Kcdhy0hNwfavd_6iOi9DWZYQ-mfSDKvSGU-RoCv_0QAvD_BwE" target="_blank"> Trybe.</a>
+      </p>   
+    </main>
 
-     </p>   
-
-  
-    </p>
-     <h3> Habilidades que estou aprendendo na Trybe são:</h3>
-     <ol>
-       <li>Autoliderança</li>
-       <li>Aprender a aprender</li>
-       <li>Gestão de tempo</li>
-       <li>Comunicação</li>
-       <li>Aprender a ouvir</li>
-     </ol>
-    <a href="https://www.jw.org/pt/" target="_blank">Site que gosto muito</a>
+     <section>
+      </p>
+      <h2> Habilidades que estou aprendendo na Trybe são:</h2>
+      <ul class="list-habilidades">
+        <li>Autoliderança</li>
+        <li>Aprender a aprender</li>
+        <li>Gestão de tempo</li>
+        <li>Comunicação</li>
+        <li>Aprender a ouvir</li>
+      </ul>
+      <a href="https://www.jw.org/pt/" target="_blank">Site que gosto muito</a>
+     </section>
 </body>
 </html>
